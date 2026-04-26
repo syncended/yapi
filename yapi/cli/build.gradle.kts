@@ -4,6 +4,7 @@ plugins {
 }
 
 dependencies {
+    implementation(libs.clikt)
     implementation(libs.mordant.core)
     implementation(libs.mordant.markdown)
     implementation(libs.mordant.coroutines)
