@@ -4,6 +4,10 @@ plugins {
 }
 
 dependencies {
+    implementation(libs.mordant.core)
+    implementation(libs.mordant.markdown)
+    implementation(libs.mordant.coroutines)
+    implementation(libs.kotlinx.coroutines.core)
     testImplementation(kotlin("test"))
 }
 

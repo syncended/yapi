@@ -1,7 +1,13 @@
 [versions]
 kotlin = "2.3.0"
+mordant = "3.0.2"
+coroutines = "1.10.2"
 
 [libraries]
+mordant-core = { module = "com.github.ajalt.mordant:mordant-core", version.ref = "mordant" }
+mordant-markdown = { module = "com.github.ajalt.mordant:mordant-markdown", version.ref = "mordant" }
+mordant-coroutines = { module = "com.github.ajalt.mordant:mordant-coroutines", version.ref = "mordant" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
