@@ -2,8 +2,8 @@ package team.dedinside.yapi.application
 
 import com.github.ajalt.clikt.core.main
 import com.github.ajalt.clikt.core.subcommands
-import team.dedinside.yapi.command.Test
-import team.dedinside.yapi.command.Yapi
+import team.dedinside.yapi.cli.Test
+import team.dedinside.yapi.cli.Yapi
 
 fun main(args: Array<String>) = Yapi()
     .subcommands(Test())

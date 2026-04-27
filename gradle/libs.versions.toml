@@ -3,6 +3,7 @@ kotlin = "2.3.0"
 mordant = "3.0.2"
 coroutines = "1.10.2"
 clikt = "5.1.0"
+shadow = "9.4.1"
 
 [libraries]
 mordant-core = { module = "com.github.ajalt.mordant:mordant-core", version.ref = "mordant" }
@@ -13,3 +14,4 @@ clikt = { module = "com.github.ajalt.clikt:clikt", version.ref = "clikt" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
