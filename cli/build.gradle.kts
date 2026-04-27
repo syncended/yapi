@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.shadow)
     application
 }
 
@@ -17,9 +18,13 @@ kotlin {
 }
 
 application {
-    mainClass.set("team.dedinside.MainKt")
+    mainClass = "team.dedinside.yapi.application.MainKt"
 }
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
 }

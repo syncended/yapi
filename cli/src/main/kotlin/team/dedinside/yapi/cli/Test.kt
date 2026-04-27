@@ -1,4 +1,4 @@
-package team.dedinside.yapi.command
+package team.dedinside.yapi.cli
 
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.core.Context
